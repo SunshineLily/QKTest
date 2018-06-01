@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'QKTest_Example' do
+  pod 'QKTest', :path => '../'
+
+  target 'QKTest_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
