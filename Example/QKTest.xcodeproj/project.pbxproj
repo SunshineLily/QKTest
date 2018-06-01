@@ -38,8 +38,8 @@
 
 /* Begin PBXFileReference section */
 		02E555A4DFD45ADAFB7B5AC8 /* Pods_QKTest_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QKTest_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1E30D5A6A26F102B62586A5D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		4B1867B4E3A0155FFEC12D4D /* QKTest.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = QKTest.podspec; path = ../QKTest.podspec; sourceTree = "<group>"; };
+		1E30D5A6A26F102B62586A5D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		4B1867B4E3A0155FFEC12D4D /* QKTest.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = QKTest.podspec; path = ../QKTest.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		4C76E70B542FA7FA76AAB3AC /* Pods-QKTest_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QKTest_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QKTest_Example/Pods-QKTest_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* QKTest_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QKTest_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -66,7 +66,7 @@
 		8790A5ABB4651E32D14FCE41 /* Pods-QKTest_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QKTest_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QKTest_Tests/Pods-QKTest_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		9D3BDFC2082AC104AD0617FD /* Pods-QKTest_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QKTest_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-QKTest_Tests/Pods-QKTest_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		CE29A6765F05C18869B059A7 /* Pods_QKTest_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QKTest_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F0E56587097D8F81826C6E7E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F0E56587097D8F81826C6E7E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -247,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "1587272615@qq.com";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 3PV33XPK7B;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -485,6 +488,7 @@
 			baseConfigurationReference = 4C76E70B542FA7FA76AAB3AC /* Pods-QKTest_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3PV33XPK7B;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "QKTest/QKTest-Prefix.pch";
 				INFOPLIST_FILE = "QKTest/QKTest-Info.plist";
@@ -500,6 +504,7 @@
 			baseConfigurationReference = 7C4413DF9A7A801343436B70 /* Pods-QKTest_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3PV33XPK7B;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "QKTest/QKTest-Prefix.pch";
 				INFOPLIST_FILE = "QKTest/QKTest-Info.plist";
